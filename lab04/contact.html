@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <h1>Contact</h1>
+        <p>Lang Delapa<br>505 Comstock Avenue<br>Syracuse, NY 13210</p>
+        <a href="mailto:ladelapa@syr.edu" target="_blank">ladelapa@syr.edu</a><br>
+        <a href="https://www.linkedin.com/in/langdelapa/" target="_blank"><img src="../images/LI-In-Bug.png" alt="linkedin logo">My LinkedIn Profile</a>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11664.060621092818!2d-76.12864884191359!3d43.04111262784605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30adff1d6e1%3A0x1be46be7c2373b12!2s505%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1631678101982!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <form action="mailto:ladelapa@syr.edu" method="post">
+            <label for="name">What is your name?</label>
+            <input type="text" id="name" name="name">
+            <p>How did you hear about Lang?</p>
+                <input type="radio" id="google" name="source" value="google">
+                <label for="google">Google</label><br>
+                <input type="radio" id="instagram" name="source" value="instagram">
+                <label for="instagram">Instagram</label><br>
+                <input type="radio" id="facebook" name="source" value="facebook">
+                <label for="facebook">Facebook</label><br>
+                <input type="radio" id="friend" name="source" value="friend">
+                <label for="friend">Word of mouth</label><br>
+                <input type="radio" id="other" name="source" value="other">
+                <label for="other">Other</label><br>
+            <label for="reason">Please briefly describe your reasons for contacting Lang.</label><br>
+            <textarea id="reason" name="reason" rows="4" cols="50"></textarea><br>
+            <p>What is the best way for Lang to reach you?</p>
+                <input type="checkbox" id="way1" name="way1" value="Phone">
+                <label for="way1">Phone</label>
+                <input type="checkbox" id="way2" name="way2" value="Email">
+                <label for="way2">Email</label>
+                <input type="checkbox" id="way3" name="way3" value="Fax">
+                <label for="way3">Fax</label>
+                <input type="checkbox" id="way4" name="way4" value="Snapchat">
+                <label for="way4">Snapchat</label>
+                <input type="checkbox" id="way5" name="way5" value="Pigeon">
+                <label for="way5">Messenger pigeon</label><br>
+            <input type="submit" value="Submit!">
+        </form>
+    </body>
+</html>
