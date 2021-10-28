@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {width: 300px;}
+        p {text-align: center;} /* this centers text items inside a container */
+        .margincentering {
+            border: 1px solid #864109;
+            margin: 0 auto; /*centers block level containers*/
+            width: 30%;
+        }
+        .flexcentering {
+            border: 1px solid #db6709;
+            display: flex;
+            justify-content: center;
+        }
+        .flexcenterednav {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a paragraph of text that we will center.</p>
+
+    <div class="margincentering"><img src="../images/Painting.jpeg"><br>Painting</div>
+
+    <div class="flexcentering"><img src="../images/Painting.jpeg">Painting</div>
+
+    <div class="flexcenterednav">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+</body>
+</html>
