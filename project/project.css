@@ -1,0 +1,89 @@
+.intro, .logonav, .row1, .row2, .footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.intro {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.introtitle {
+    flex: 1.5;
+    font-size: 3em;
+    padding-left: 20px;
+}
+.introparagraph {
+    flex: 2;
+    text-align: right;
+    padding-top: 40px;
+     margin-left: 50px;
+}
+#school2 {
+    padding-top: 20px;
+}
+.footer {
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 20px;
+    background-color: #fdc09d;
+
+}
+#photome {
+    float: left;
+    padding: 20px;
+}
+.aboutme {
+    flex: 1;
+}
+.contact {
+    flex: 1.5;
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 160px;
+}
+.clear {
+    clear: both;
+}
+.logonav {
+    justify-content: space-between;
+}
+.row1, .row2 {
+    justify-content: space-evenly;
+    margin-left: 60px;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    padding-left: 20px;
+    color: #3250d8;
+}
+h2 {
+    color: #f0a7d5;
+}
+img {
+    max-width: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    nav a {
+        width: 100%;
+        display: block;
+        padding: 5px;
+    }
+    nav span {
+        display: none;
+    }
+    .dropdown-content {
+        display: block;
+    }
+}
