@@ -64,13 +64,13 @@ img {
     max-width: 100%;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline-block;
 }
 .dropdown-content {
     display: none;
 }
 .dropdown {
-    position: relative;
+    /*position: relative;*/
     display: inline-block;
 }
 
