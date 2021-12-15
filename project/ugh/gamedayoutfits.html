@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nighttime Outfits</title>
+        <link rel="stylesheet" href="project.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/xhw0hhx.css"> 
+        <script>
+            function TurnNavOnOff () {
+    
+            if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+                document.getElementById("navlinks").style.display = "none";
+            }
+            else {
+                document.getElementById("navlinks").style.display = "block";
+            }
+        }
+        </script>
+    </head>
+    <body>
+    
+        <header class="logonav">
+            <h1>DELASTYLED</h1>
+            <nav>
+                <img src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" id="hamicon" onclick="TurnNavOnOff();">
+                <div id="navlinks">
+                <a href="index.html">home</a> <span>|</span>
+                <div class="dropdown">
+                    <span class="dropbtn">outfits</span>
+                    <div class="dropdown-content">
+                        <a href="schooloutfits.html">school</a>
+                        <a href="daytimeoutfits.html">daytime</a>
+                        <a href="nighttimeoutfits.html">nighttime</a>
+                        <a href="gamedayoutfits.html">gameday</a>
+                    </div>
+                    <span>|</span>
+                </div>
+                <a href="inspiration.html">inspiration</a>
+                </div>
+            </nav> 
+            </header>
+            <div class="intro">
+                <div class="introtitle">
+                <h2>For Gameday</h2>
+                </div>
+                
+                <div class="introparagraph">
+                <p>Crafting the perfect gameday outfit is more than throwing on a Syracuse t-shirt and calling it a day. I like mixing my own style with Syracuse-themed clothing to avoid looking straight out of the school store catalogue.</p>
+                </div>
+            </div>
+
+
+    <div class="gamedayoutfits">
+        <div class="row1">
+        <img src="images/game1.png" alt="game1">
+        <img src="images/game2.png" alt="game2">
+        </div>
+        <div class="row2"><
+        <img src="images/game3.png" alt="game3">
+        <img src="images/game4.png" alt="game4">
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="aboutme">
+            <img src="images/me.jpeg" alt="photo of me" id="photome">
+            <h3>ABOUT ME</h3>
+            <p>Hi! My name is Lang and I'm a sophomore studying Advertising at Syracuse University. I'm passionate about style and would love to work somewhere in the fashion industry one day. Most of my clothes are thrifted, but I love stores like Urban Outfitters, Princess Polly, Motel Rocks, and my friends' closets.</p>
+        </div>
+        <div class="clear"></div>
+        <div class="contact">
+            <p><strong>EMAIL:</strong> ladelapa@syr.edu</p>
+            <p><strong>PHONE:</strong> 617-318-7096</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

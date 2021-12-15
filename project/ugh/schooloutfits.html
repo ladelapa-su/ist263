@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Outfits</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xhw0hhx.css"> 
+
+    <script>
+        function TurnNavOnOff () {
+
+        if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+            document.getElementById("navlinks").style.display = "none";
+        }
+        else {
+            document.getElementById("navlinks").style.display = "block";
+        }
+    }
+    </script>
+
+</head>
+<body>
+    <header class="logonav">
+    <h1>DELASTYLED</h1>
+    <nav>
+        <img src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" id="hamicon" onclick="TurnNavOnOff();">
+        <div id="navlinks">
+        <a href="index.html">home</a> <span>|</span>
+        <div class="dropdown">
+            <span class="dropbtn">outfits</span>
+            <div class="dropdown-content">
+                <a href="schooloutfits.html">school</a>
+                <a href="daytimeoutfits.html">daytime</a>
+                <a href="nighttimeoutfits.html">nighttime</a>
+                <a href="gamedayoutfits.html">gameday</a>
+            </div>
+            <span>|</span>
+        </div>
+        <a href="inspiration.html">inspiration</a>
+        </div>
+    </nav> 
+    </header>
+    <div class="intro">
+        <div class="introtitle">
+        <h2>For Class</h2>
+        </div>
+        
+        <div class="introparagraph">
+ 
+        <p>I have never been the type to roll out of bed five minutes before class, throwing on whatever I pull out of my drawer first. I thrive on receiving compliments on my outfits from strangers in class, so I have to make sure I’m always dressed to impressed. However, crafting the perfect class outfit requires a delicate balance between laid-back and stylish. Here are my favorite outfits to wear in a crowded lecture hall:</p>
+        </div>
+    </div>
+
+   <!--<hr class="dotted">-->
+
+    <div class="schooloutfits">
+        <div class="row1">
+        <img src="images/school1.png" alt="green crop tank top with yin yang design, khaki cargo pants, chunky white sneakers">
+        <img src="images/school2.png" alt="low rise light wash jeans, lacey long sleeve off the shoulder top over lace camisole, brown courdory jacket, cream sneakers" id="school2">
+        <img src="images/school3.png" alt="light green jeans, tan sweatshirt with trains illusrations, cream sneakers, green plaid headband">
+        </div>
+        <div class="row2">
+        <img src="images/school4.png" alt="low rise dark wash jeans, long floral camisole, cream sneakers, beige cardigan">
+        <img src="images/school5.png" alt="red striped sweater dress, black doc martens, tan trench coat">
+        <img src="images/school6.png" alt="beige cardigan, green plaid headband, black doc martens, olive green army cargo pants">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="aboutme">
+            <img src="images/me.jpeg" alt="photo of me" id="photome">
+            <h3>ABOUT ME</h3>
+            <p>Hi! My name is Lang and I'm a sophomore studying Advertising at Syracuse University. I'm passionate about style and would love to work somewhere in the fashion industry one day. Most of my clothes are thrifted, but I love stores like Urban Outfitters, Princess Polly, Motel Rocks, and my friends' closets.</p>
+        </div>
+        <div class="clear"></div>
+        <div class="contact">
+            <p><strong>EMAIL:</strong> ladelapa@syr.edu</p>
+            <p><strong>PHONE:</strong> 617-318-7096</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -5,40 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nighttime Outfits</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xhw0hhx.css"> 
+    <script>
+        function TurnNavOnOff () {
+
+        if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+            document.getElementById("navlinks").style.display = "none";
+        }
+        else {
+            document.getElementById("navlinks").style.display = "block";
+        }
+    }
+    </script>
 </head>
 <body>
-    <nav>
-        <a href="index.html">home</a> <span>|</span>
-        <a href="">outfits</a> <span>|</span>
-        <a href="inspiration.html">inspiration</a>
-       </nav> 
 
-    <header>
-        <h1>NIGHTTIME</h1>
-        <hr>
-        <h2>Nighttime outfits tend to be a little “riskier” than daytime outfits—think darker colors, fabrics like leather and velvet, and high heels. I don’t wear anything too extreme, but there is definitely a hard line between what I would wear for a 1pm lunch vs. an 8pm dinner. These outfits are what I would wear to go to a late dinner, a bar (well, once I can get in at least!), a lounge, a party, or other nighttime occasions.</h2>
-    </header>
+    <header class="logonav">
+        <h1>DELASTYLED</h1>
+        <nav>
+            <img src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" id="hamicon" onclick="TurnNavOnOff();">
+            <div id="navlinks">
+            <a href="index.html">home</a> <span>|</span>
+            <div class="dropdown">
+                <span class="dropbtn">outfits</span>
+                <div class="dropdown-content">
+                    <a href="schooloutfits.html">school</a>
+                    <a href="daytimeoutfits.html">daytime</a>
+                    <a href="nighttimeoutfits.html">nighttime</a>
+                    <a href="gamedayoutfits.html">gameday</a>
+                </div>
+                <span>|</span>
+            </div>
+            <a href="inspiration.html">inspiration</a>
+            </div>
+        </nav> 
+        </header>
+        <div class="intro">
+            <div class="introtitle">
+            <h2>For Night</h2>
+            </div>
+            
+            <div class="introparagraph">
+            <p>Nighttime outfits tend to be a little “riskier” than daytime outfits—think darker colors, fabrics like leather and velvet, and high heels. I don’t wear anything too extreme, but there is definitely a hard line between what I would wear for a 1pm lunch vs. an 8pm dinner. These outfits are what I would wear to go to a late dinner, a bar (well, once I can get in at least!), a lounge, a party, or other nighttime occasions.</p>
+            </div>
+        </div>
 
     <div class="nighttimeoutfits">
+        <div class="row1">
         <img src="images/night1.png" alt="night1">
         <img src="images/night2.png" alt="night2">
         <img src="images/night3.png" alt="night3">
+        </div>
+        <div class="row2">
         <img src="images/night4.png" alt="night4">
         <img src="images/night5.png" alt="night5">
         <img src="images/night6.png" alt="night6">
+        </div>
 
     </div>
 
-    <footer>
+    <footer class="footer">
         <div class="aboutme">
-            <img src="images/me.jpeg" alt="photo of me">
+            <img src="images/me.jpeg" alt="photo of me" id="photome">
             <h3>ABOUT ME</h3>
             <p>Hi! My name is Lang and I'm a sophomore studying Advertising at Syracuse University. I'm passionate about style and would love to work somewhere in the fashion industry one day. Most of my clothes are thrifted, but I love stores like Urban Outfitters, Princess Polly, Motel Rocks, and my friends' closets.</p>
         </div>
+        <div class="clear"></div>
         <div class="contact">
             <p><strong>EMAIL:</strong> ladelapa@syr.edu</p>
             <p><strong>PHONE:</strong> 617-318-7096</p>
         </div>
-        </footer>
+    </footer>
+
 </body>
 </html>

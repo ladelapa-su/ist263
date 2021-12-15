@@ -8,13 +8,29 @@
     <link rel="stylesheet" href="project.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xhw0hhx.css"> 
+
+    <script>
+        function TurnNavOnOff () {
+
+        if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+            document.getElementById("navlinks").style.display = "none";
+        }
+        else {
+            document.getElementById("navlinks").style.display = "block";
+        }
+    }
+    </script>
+
 </head>
 <body>
     <header class="logonav">
     <h1>DELASTYLED</h1>
     <nav>
+        <img src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" id="hamicon" onclick="TurnNavOnOff();">
+        <div id="navlinks">
         <a href="index.html">home</a> <span>|</span>
         <div class="dropdown">
             <span class="dropbtn">outfits</span>
@@ -27,17 +43,21 @@
             <span>|</span>
         </div>
         <a href="inspiration.html">inspiration</a>
+        </div>
     </nav> 
     </header>
     <div class="intro">
         <div class="introtitle">
-        <h2>FOR CLASS</h2>
+        <h2>For Class</h2>
         </div>
         
         <div class="introparagraph">
+ 
         <p>I have never been the type to roll out of bed five minutes before class, throwing on whatever I pull out of my drawer first. I thrive on receiving compliments on my outfits from strangers in class, so I have to make sure I’m always dressed to impressed. However, crafting the perfect class outfit requires a delicate balance between laid-back and stylish. Here are my favorite outfits to wear in a crowded lecture hall:</p>
         </div>
     </div>
+
+   <!--<hr class="dotted">-->
 
     <div class="schooloutfits">
         <div class="row1">
